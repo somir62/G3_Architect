@@ -5,6 +5,11 @@
 }
 
 /* shared style */
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 53px;
+}
 .btn-primary{
     border-radius: 8px;
     background: rgb(255, 144, 14);
@@ -29,12 +34,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-nav h3{
-    font-size: 2.8rem;
-    font-weight: 700;
-    line-height: 53px;
-
 }
 nav ul{
     display: flex;
@@ -81,7 +80,7 @@ main{
     margin: 70px auto;
 }
 
-/* Feature section style */
+/* Team section style */
 .team-container{
     display: flex;
     align-items: center;
@@ -93,7 +92,7 @@ main{
 }
 .team-content{
 padding-right: 70px;
-padding-left: 70px;
+padding-left: 100px;
 max-width: 537px;;
 }
 .team-content > *{
@@ -111,9 +110,15 @@ max-width: 537px;;
     font-weight: 700;
 }
 
+/* Features section  */
 
 
 
+
+/* Facts section */
+.facts-content{
+    max-width: 542px;
+}
 
 
 
