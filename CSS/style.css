@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* shared style */
+.btn-primary{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1rem 1.2rem;
+    border: none;
+    color: white;
+}
+/* Header styles */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 53px;
+
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 1rem;
+}
+
+/* banner style */
+.banner{
+    margin-top: 4rem;
+}
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-content > * {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.banner-title{
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 75px;
+    color: rgb(19, 19, 19);
+}
+.banner-description, .team-description{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.banner-img img{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/* Main style */
+main{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* Feature section style */
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+padding-right: 70px;
+padding-left: 70px;
+max-width: 537px;;
+}
+.team-content > *{
+    margin-bottom: 1rem;
+}
+.team-title{
+    font-size: 2.8rem ;
+}
+.team-title .quick-list{
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+}
+.team-title .text-features{
+    color: rgb(255, 144, 14);
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+/* Responsive Layout */
+
+
+/* Mobile Device */
+@media screen and (max-width: 576px){
+    header{
+        padding: 2rem 3rem;
+    }
+    nav{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .banner{
+        margin-top: 2rem;
+    }
+    .nav h3{
+        font-size: 0.5rem;
+        font-weight: 500;
+    }
+    
+}
+
+/* Tablet Device */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 3rem 4rem;
+    }
+    nav{
+        flex-direction: column;
+        gap: 1rem;
+}
+}
+
+
+
+
